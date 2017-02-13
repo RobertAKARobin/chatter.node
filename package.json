@@ -2,10 +2,13 @@
   "name": "chatter.js",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "chatter.server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
 }
